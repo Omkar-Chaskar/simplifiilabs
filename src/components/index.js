@@ -1,3 +1,3 @@
 import ContactUsForm from "./contactUsForm";
-
-export { ContactUsForm };
+import { FormModel } from "./formModel";
+export { ContactUsForm, FormModel };
