@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { FormInputProvider } from './contextProvider/formInputProvider';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <FormInputProvider>
+      <App />
+    </FormInputProvider>
   </React.StrictMode>
 );
 

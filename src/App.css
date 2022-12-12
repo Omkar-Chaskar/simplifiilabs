@@ -8,3 +8,18 @@ input:focus {
   box-shadow: none !important;
   padding: 10px;
 }
+
+.captcha-preview {
+  width:fit-content;
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 8px;
+  border: 1px dashed #888;
+  font-family: monospace;
+}
+
+.captcha-preview span {
+  display: inline-block;
+  user-select: none;
+  margin: auto 5px;
+}
